@@ -13,6 +13,8 @@
 		02655CE517D9318400BC211B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 02655CE317D9318400BC211B /* Credits.rtf */; };
 		02655CE817D9318400BC211B /* SZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02655CE717D9318400BC211B /* SZAppDelegate.m */; };
 		02655CEB17D9318400BC211B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02655CE917D9318400BC211B /* MainMenu.xib */; };
+		02655CFC17D9357400BC211B /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02655CFA17D9357400BC211B /* MasterViewController.m */; };
+		02655CFD17D9357400BC211B /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02655CFB17D9357400BC211B /* MasterViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,9 @@
 		02655CE617D9318400BC211B /* SZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZAppDelegate.h; sourceTree = "<group>"; };
 		02655CE717D9318400BC211B /* SZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZAppDelegate.m; sourceTree = "<group>"; };
 		02655CEA17D9318400BC211B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		02655CF917D9357400BC211B /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MasterViewController.h; path = ../MasterViewController.h; sourceTree = "<group>"; };
+		02655CFA17D9357400BC211B /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MasterViewController.m; path = ../MasterViewController.m; sourceTree = "<group>"; };
+		02655CFB17D9357400BC211B /* MasterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MasterViewController.xib; path = ../MasterViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +87,9 @@
 		02655CDA17D9318400BC211B /* Timer */ = {
 			isa = PBXGroup;
 			children = (
+				02655CF917D9357400BC211B /* MasterViewController.h */,
+				02655CFA17D9357400BC211B /* MasterViewController.m */,
+				02655CFB17D9357400BC211B /* MasterViewController.xib */,
 				02655CE617D9318400BC211B /* SZAppDelegate.h */,
 				02655CE717D9318400BC211B /* SZAppDelegate.m */,
 				02655CE917D9318400BC211B /* MainMenu.xib */,
@@ -157,6 +165,7 @@
 				02655CDF17D9318400BC211B /* InfoPlist.strings in Resources */,
 				02655CE517D9318400BC211B /* Credits.rtf in Resources */,
 				02655CEB17D9318400BC211B /* MainMenu.xib in Resources */,
+				02655CFD17D9357400BC211B /* MasterViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +178,7 @@
 			files = (
 				02655CE117D9318400BC211B /* main.m in Sources */,
 				02655CE817D9318400BC211B /* SZAppDelegate.m in Sources */,
+				02655CFC17D9357400BC211B /* MasterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +314,7 @@
 				02655CF017D9318400BC211B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
